@@ -380,3 +380,20 @@
 .flowalarm-page .flow-hero-actions .button-dark:hover{background:#dc522b}
 .flowalarm-page .flow-hero-actions .flow-policy-action{border-color:#e9b59e;color:#272a30}
 .flowalarm-page .flow-hero-actions .flow-policy-action span{color:#f26335}
+
+
+/* Match About and Contact page scale to the Projects page */
+.about-page .about-hero,.contact-page .contact-hero{padding-top:66px;padding-bottom:53px;text-align:center}
+.about-page .about-hero .section-kicker,.contact-page .contact-hero .section-kicker{font-size:8px;line-height:1.5}
+.about-page .about-hero h1,.contact-page .contact-hero h1{font-size:clamp(46px,5.6vw,74px);line-height:1.06;margin:21px 0 13px}
+.about-page .about-hero h1 em,.contact-page .contact-hero h1 em{font-size:.86em}
+.about-page .about-hero>p,.contact-page .contact-hero>p{max-width:600px;font-size:16px;line-height:1.7;color:#6d727c;margin:0 auto}
+.about-page .about-copy h2,.contact-page .contact-option h2{font-size:30px;line-height:1.1;margin:17px 0 10px}
+.about-page .about-copy p,.contact-page .contact-option p{font-size:16px;line-height:1.75}
+.contact-page .contact-options{max-width:1220px}
+@media(max-width:650px){
+ .about-page .about-hero,.contact-page .contact-hero{padding:52px 20px 38px}
+ .about-page .about-hero h1,.contact-page .contact-hero h1{font-size:39px;line-height:1.08;margin:17px 0 10px}
+ .about-page .about-hero>p,.contact-page .contact-hero>p{font-size:16px;line-height:1.7}
+ .about-page .about-copy h2,.contact-page .contact-option h2{font-size:28px}
+}
