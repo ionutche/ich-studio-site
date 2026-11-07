@@ -480,4 +480,13 @@ h1,.home-hero h1,.hero h1,.page-hero h1,.projects-page .projects-hero h1,.flowal
 .flow-sidebar .flow-toc{position:sticky;top:24px}
 @media(max-width:900px){.flow-origin-story{grid-template-columns:1fr;gap:12px}.flow-walkthrough{grid-template-columns:1fr;gap:22px}.flow-sidebar{position:static}.flow-sidebar .flow-toc{position:static;display:flex;flex-wrap:wrap;align-items:center;gap:5px;padding:14px}}
 @media(max-width:650px){.flow-origin-story{gap:10px}.flow-sidebar{gap:14px}.flow-sidebar .flow-news-panel{padding:20px}.flow-sidebar .flow-news-panel h2{font-size:21px}.flow-sidebar .flow-news-panel li{font-size:15px}.flow-sidebar .flow-toc{display:grid;grid-template-columns:1fr 1fr}.flow-sidebar .flow-toc .section-kicker{grid-column:1/-1}}
+/* Keep FlowAlarm updates and contents visible together in the sidebar */
+.flow-walkthrough{grid-template-columns:minmax(340px,400px) minmax(0,1fr);gap:34px}
+.flow-sidebar{gap:12px}
+.flow-sidebar .flow-news-panel{padding:16px}
+.flow-sidebar .flow-news-panel h2{font-size:20px;line-height:1.2;margin:7px 0 9px}
+.flow-sidebar .flow-news-panel li{font-size:15px;line-height:1.4;padding:8px 0 8px 18px}
+.flow-sidebar .flow-news-panel li:before{top:15px;width:5px;height:5px}
+.flow-sidebar .flow-toc{padding:15px 14px}
+.flow-sidebar .flow-toc a{padding:8px 7px;font-size:14px}
 
