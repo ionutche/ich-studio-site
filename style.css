@@ -468,3 +468,16 @@ h1,.home-hero h1,.hero h1,.page-hero h1,.projects-page .projects-hero h1,.flowal
 @media(max-width:650px){.flow-step>.journey-visual,.flow-step>.flow-image-pair{width:100%}.flow-step>.journey-visual img{height:330px}.flow-step>.flow-image-pair{grid-template-columns:1fr}.flow-step>.flow-image-pair .journey-visual img{height:330px}.flow-step>.journey-copy{padding-left:37px}}
 
 
+/* FlowAlarm: place release notes above the left-hand table of contents */
+.flow-origin-grid{display:block}
+.flow-origin-story{max-width:1160px;margin:0 auto;grid-template-columns:.9fr 1.1fr}
+.flow-walkthrough{grid-template-columns:minmax(260px,300px) minmax(0,1fr);gap:38px}
+.flow-sidebar{display:grid;gap:18px;align-self:start}
+.flow-sidebar .flow-news-panel{padding:22px}
+.flow-sidebar .flow-news-panel h2{font-size:22px;line-height:1.18}
+.flow-sidebar .flow-news-panel li{font-size:15px;line-height:1.5;padding:12px 0 12px 18px}
+.flow-sidebar .flow-news-panel li:before{top:20px}
+.flow-sidebar .flow-toc{position:sticky;top:24px}
+@media(max-width:900px){.flow-origin-story{grid-template-columns:1fr;gap:12px}.flow-walkthrough{grid-template-columns:1fr;gap:22px}.flow-sidebar{position:static}.flow-sidebar .flow-toc{position:static;display:flex;flex-wrap:wrap;align-items:center;gap:5px;padding:14px}}
+@media(max-width:650px){.flow-origin-story{gap:10px}.flow-sidebar{gap:14px}.flow-sidebar .flow-news-panel{padding:20px}.flow-sidebar .flow-news-panel h2{font-size:21px}.flow-sidebar .flow-news-panel li{font-size:15px}.flow-sidebar .flow-toc{display:grid;grid-template-columns:1fr 1fr}.flow-sidebar .flow-toc .section-kicker{grid-column:1/-1}}
+
