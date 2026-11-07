@@ -145,10 +145,10 @@
 
 
 /* FlowAlarm app mark in the project card and product page */
-.work-brand-icon{display:block;width:52px;height:52px;object-fit:cover;border-radius:12px;margin:0 auto 12px;box-shadow:0 4px 13px rgba(28,30,35,.12)}
+.work-brand-icon{display:block;width:118px;height:auto;max-height:56px;object-fit:contain;border-radius:0;margin:0 auto 12px;box-shadow:none}
 .projects-page .work-card:hover .work-brand-icon,.projects-page .work-card:focus-within .work-brand-icon,.projects-page .work-card:focus .work-brand-icon{margin-left:0;margin-right:auto}
-.flow-product-logo{display:block;width:72px;height:72px;object-fit:cover;border-radius:18px;margin:0 0 18px;box-shadow:0 8px 20px rgba(29,31,36,.1)}
-@media(max-width:650px){.work-brand-icon{width:44px;height:44px;border-radius:10px;margin:0 0 10px}.flow-product-logo{width:58px;height:58px;border-radius:15px;margin-bottom:15px}}
+.flow-product-logo{display:block;width:118px;height:auto;max-height:54px;object-fit:contain;border-radius:0;margin:0 0 18px;box-shadow:none}
+@media(max-width:650px){.work-brand-icon{width:100px;height:auto;max-height:46px;border-radius:0;margin:0 0 10px}.flow-product-logo{width:100px;height:auto;max-height:46px;border-radius:0;margin-bottom:15px}}
 
 
 .projects-page .work-brand-icon{transform:translateY(7px);}
@@ -181,7 +181,7 @@
 .flowalarm-hero{padding:68px 11vw 62px;background:radial-gradient(ellipse at 80% 40%,#ece8df,transparent 38%),#f7f5ef}
 .flow-hero-brand{display:flex;align-items:center;gap:13px;margin-bottom:24px;font:800 14px var(--display);letter-spacing:.08em}
 .flow-hero-brand small{display:block;margin-top:3px;color:#858890;font:700 8px var(--sans);letter-spacing:.15em}
-.flow-hero-brand .flow-product-logo{width:55px;height:55px;border-radius:14px;margin:0}
+.flow-hero-brand .flow-product-logo{width:102px;height:auto;max-height:47px;object-fit:contain;border-radius:0;margin:0;box-shadow:none;flex-shrink:0}
 .flowalarm-hero .section-kicker{margin-bottom:17px}
 .flowalarm-hero h1{font-size:clamp(45px,5.8vw,76px);line-height:1.01;margin:0 0 18px}
 .flowalarm-hero h1 em{font-size:.9em}
@@ -216,7 +216,7 @@
 .stage-foot{font-size:8px;letter-spacing:.1em;color:#96999e;font-weight:700}
 .flow-transparency{max-width:1150px;margin:18px auto 0;font-size:10px;line-height:1.6;color:#888b91}
 .flowalarm-page .screens{background:#f1efe9}
-@media(max-width:650px){.flowalarm-page .site-header{height:auto;min-height:67px;padding:11px 18px;display:grid;grid-template-columns:1fr;gap:7px}.flowalarm-page .brand{font-size:14px}.flowalarm-page .brand-mark{width:28px;height:28px}.flowalarm-page .site-header nav{grid-row:2;display:flex;gap:21px;overflow-x:auto;white-space:nowrap;padding:7px 0 2px;scrollbar-width:none}.flowalarm-page .site-header nav::-webkit-scrollbar{display:none}.flowalarm-page .site-header nav a{font-size:13px}.flowalarm-page .site-header nav a.active:after{margin-top:4px}.flowalarm-hero{padding:60px 23px 42px}.flow-hero-brand{font-size:12px;margin-bottom:18px}.flow-hero-brand .flow-product-logo{width:47px;height:47px;border-radius:12px}.flowalarm-hero h1{font-size:40px}.flowalarm-hero>p{font-size:12px}.flow-hero-actions{gap:14px;flex-wrap:wrap}.flow-testing-tag{font-size:8px}.flow-origin{padding:53px 23px}.flow-origin-grid{grid-template-columns:1fr;gap:20px}.flow-origin-grid h2,.flow-section-heading h2{font-size:42px;margin:0}.flow-quote{font-size:20px}.flow-origin-grid>div>p:not(.flow-quote){font-size:12px}.flow-section-heading{display:block}.flow-section-heading>p{margin-top:15px}.flow-features{padding:55px 23px}.flow-features .feature-grid{margin-top:23px}.flow-control-note{display:block;padding:15px}.flow-control-note p{margin-top:8px;font-size:15px}.flow-stage{padding:55px 23px}.flow-stage-grid{grid-template-columns:1fr;gap:12px;margin-top:20px}.stage-card{padding:21px}.stage-card h2{font-size:20px}.stage-card p{font-size:11px}.flow-transparency{font-size:9px}}
+@media(max-width:650px){.flowalarm-page .site-header{height:auto;min-height:67px;padding:11px 18px;display:grid;grid-template-columns:1fr;gap:7px}.flowalarm-page .brand{font-size:14px}.flowalarm-page .brand-mark{width:28px;height:28px}.flowalarm-page .site-header nav{grid-row:2;display:flex;gap:21px;overflow-x:auto;white-space:nowrap;padding:7px 0 2px;scrollbar-width:none}.flowalarm-page .site-header nav::-webkit-scrollbar{display:none}.flowalarm-page .site-header nav a{font-size:13px}.flowalarm-page .site-header nav a.active:after{margin-top:4px}.flowalarm-hero{padding:60px 23px 42px}.flow-hero-brand{font-size:12px;margin-bottom:18px}.flow-hero-brand .flow-product-logo{width:84px;height:auto;max-height:40px;object-fit:contain;border-radius:0}.flowalarm-hero h1{font-size:40px}.flowalarm-hero>p{font-size:12px}.flow-hero-actions{gap:14px;flex-wrap:wrap}.flow-testing-tag{font-size:8px}.flow-origin{padding:53px 23px}.flow-origin-grid{grid-template-columns:1fr;gap:20px}.flow-origin-grid h2,.flow-section-heading h2{font-size:42px;margin:0}.flow-quote{font-size:20px}.flow-origin-grid>div>p:not(.flow-quote){font-size:12px}.flow-section-heading{display:block}.flow-section-heading>p{margin-top:15px}.flow-features{padding:55px 23px}.flow-features .feature-grid{margin-top:23px}.flow-control-note{display:block;padding:15px}.flow-control-note p{margin-top:8px;font-size:15px}.flow-stage{padding:55px 23px}.flow-stage-grid{grid-template-columns:1fr;gap:12px;margin-top:20px}.stage-card{padding:21px}.stage-card h2{font-size:20px}.stage-card p{font-size:11px}.flow-transparency{font-size:9px}}
 
 
 /* FlowAlarm page: centered narrative, readable copy, step-by-step screenshots */
