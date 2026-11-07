@@ -372,3 +372,12 @@ Warning: b was declared with const; use let for reassignable variables.
  .site-header nav a.active:after,.home-page .site-header nav a.active:after,.projects-page .site-header nav a.active:after,.about-page .site-header nav a.active:after,.contact-page .site-header nav a.active:after,.flowalarm-page .site-header nav a.active:after,.flowalarm-privacy-page .site-header nav a.active:after{bottom:0}
 }
 
+
+
+/* FlowAlarm: restore the agreed black and orange hero palette */
+.flowalarm-page .flowalarm-hero h1{color:#272a30}
+.flowalarm-page .flowalarm-hero h1 em{color:#f26335}
+.flowalarm-page .flow-hero-actions .button-dark{background:#f26335;color:#fff;box-shadow:0 8px 20px rgba(242,99,53,.18)}
+.flowalarm-page .flow-hero-actions .button-dark:hover{background:#dc522b}
+.flowalarm-page .flow-hero-actions .flow-policy-action{border-color:#e9b59e;color:#272a30}
+.flowalarm-page .flow-hero-actions .flow-policy-action span{color:#f26335}
