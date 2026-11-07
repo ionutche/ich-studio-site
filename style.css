@@ -493,5 +493,5 @@
 
 /* Keep project cards from growing when their hover layout narrows the copy */
 .projects-page .work-card{height:340px;min-height:340px}
-@media(min-width:651px) and (max-width:850px){.projects-page .work-card{height:380px;min-height:380px}}
+@media(min-width:651px) and (max-width:850px){.projects-page .projects-gallery{grid-template-columns:1fr}.projects-page .work-card{height:340px;min-height:340px}}
 @media(max-width:650px){.projects-page .work-card{height:auto;min-height:305px}}
