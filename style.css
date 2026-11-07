@@ -372,7 +372,6 @@
 }
 
 
-
 /* FlowAlarm: restore the agreed black and orange hero palette */
 .flowalarm-page .flowalarm-hero h1{color:#272a30}
 .flowalarm-page .flowalarm-hero h1 em{color:#f26335}
@@ -380,7 +379,6 @@
 .flowalarm-page .flow-hero-actions .button-dark:hover{background:#dc522b}
 .flowalarm-page .flow-hero-actions .flow-policy-action{border-color:#e9b59e;color:#272a30}
 .flowalarm-page .flow-hero-actions .flow-policy-action span{color:#f26335}
-
 
 /* Match About and Contact page scale to the Projects page */
 .about-page .about-hero,.contact-page .contact-hero{padding-top:66px;padding-bottom:53px;text-align:center}
@@ -398,96 +396,6 @@
  .about-page .about-copy h2,.contact-page .contact-option h2{font-size:28px}
 }
 
-
-/* ICH STUDIO — unified typography layer (authoritative shared scale) */
-:root{
-  --type-display:clamp(46px,5.2vw,68px);
-  --type-section:clamp(34px,3.5vw,44px);
-  --type-card:26px;
-  --type-body:16px;
-  --type-small:14px;
-  --type-meta:11px;
-}
-.page-hero h1,
-.home-page .hero-copy h1{
-  font-size:var(--type-display);
-  line-height:1.08;
-  letter-spacing:-.055em;
-}
-.home-intro-grid h2,
-.about-copy h2,
-.flow-origin-grid h2,
-.flow-journey-heading h2,
-.flow-stage-heading h2,
-.features-heading h2,
-.screens-heading h2,
-.origin h2{
-  font-size:var(--type-section);
-  line-height:1.12;
-  letter-spacing:-.05em;
-}
-.work-info h2,
-.about-copy h2,
-.contact-option h2,
-.journey-copy h3,
-.stage-card h3{
-  font-size:var(--type-card);
-  line-height:1.18;
-  letter-spacing:-.035em;
-}
-.home-intro-grid>div>p,
-.page-hero>p,
-.about-copy p,
-.contact-option p,
-.flowalarm-hero>p,
-.flow-origin-grid>div>p:not(.flow-quote),
-.flow-journey-heading>p,
-.journey-copy p,
-.stage-card p,
-.flow-transparency,
-.projects-note p,
-.hero-intro-card p,
-.news-item p{
-  font-size:var(--type-body);
-  line-height:1.75;
-}
-.section-kicker,.eyebrow{
-  font-size:var(--type-meta);
-  line-height:1.5;
-}
-@media(max-width:650px){
-  :root{
-    --type-display:clamp(38px,9.5vw,46px);
-    --type-section:32px;
-    --type-card:23px;
-    --type-body:15px;
-    --type-small:13px;
-    --type-meta:10px;
-  }
-  .page-hero h1,.home-page .hero-copy h1{
-    font-size:var(--type-display);
-    line-height:1.1;
-  }
-  .home-intro-grid h2,.about-copy h2,.flow-origin-grid h2,
-  .flow-journey-heading h2,.flow-stage-heading h2,
-  .features-heading h2,.screens-heading h2,.origin h2{
-    font-size:var(--type-section);
-    line-height:1.15;
-  }
-  .work-info h2,.about-copy h2,.contact-option h2,
-  .journey-copy h3,.stage-card h3{
-    font-size:var(--type-card);
-  }
-  .home-intro-grid>div>p,.page-hero>p,.about-copy p,
-  .contact-option p,.flowalarm-hero>p,
-  .flow-origin-grid>div>p:not(.flow-quote),
-  .flow-journey-heading>p,.journey-copy p,.stage-card p,
-  .flow-transparency,.projects-note p,.hero-intro-card p,.news-item p{
-    font-size:var(--type-body);
-    line-height:1.7;
-  }
-}
-
 /* ICH Studio logo */
 .brand{gap:0}.ich-studio-logo{display:block;width:118px;height:auto;max-height:48px;object-fit:contain}@media(max-width:650px){.ich-studio-logo{width:100px;max-height:40px}}
 
@@ -495,7 +403,6 @@
 .projects-page .work-card{height:340px;min-height:340px}
 @media(min-width:651px) and (max-width:850px){.projects-page .projects-gallery{grid-template-columns:1fr}.projects-page .work-card{height:340px;min-height:340px}}
 @media(max-width:650px){.projects-page .work-card{height:auto;min-height:305px}}
-
 /* Shared site-wide type scale and control sizing */
 body{font-size:var(--type-body)}
 h1,.home-hero h1,.hero h1,.page-hero h1,.projects-page .projects-hero h1,.flowalarm-hero h1{font-size:var(--type-page-title)!important;line-height:1.06}
@@ -515,3 +422,35 @@ h1,.home-hero h1,.hero h1,.page-hero h1,.projects-page .projects-hero h1,.flowal
  .work-info h2,.projects-page .work-info h2,.contact-option h2,.contact-page .contact-option h2,.feature-card h3,.stage-card h3,.journey-copy h3,.project-row-copy h2{font-size:var(--type-card-title)!important;line-height:1.2}
  .button,button,.header-cta,.flow-policy-action,.contact-email{font-size:var(--type-control)!important;min-height:var(--control-height);padding:var(--control-padding)}
 }
+
+/* FlowAlarm: release notes and guided product walkthrough */
+.flow-origin{padding:78px 6vw;background:#fff}
+.flow-origin-grid{max-width:1240px;grid-template-columns:minmax(0,1.15fr) minmax(310px,.85fr);gap:6%;align-items:start}
+.flow-origin-story{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;align-items:start}
+.flow-origin-story .flow-origin-heading h2{font-size:var(--type-section-title)!important}
+.flow-origin-story .flow-origin-copy p{font-size:var(--type-body);line-height:1.7}
+.flow-news-panel{padding:27px 28px;border:1px solid #e8e2d8;background:#faf9f6;border-radius:8px}
+.flow-news-panel h2{font:700 24px/1.2 var(--display);letter-spacing:-.03em;margin:12px 0 16px;color:var(--ink)}
+.flow-news-panel ul{list-style:none;margin:0;padding:0}
+.flow-news-panel li{position:relative;padding:13px 0 13px 19px;border-top:1px solid #e9e4da;color:#555963;font-size:16px;line-height:1.55}
+.flow-news-panel li:before{content:"";position:absolute;left:1px;top:22px;width:6px;height:6px;background:var(--orange);border-radius:50%}
+.flow-walkthrough{max-width:1240px;margin:36px auto 0;display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px;align-items:start}
+.flow-toc{position:sticky;top:24px;border:1px solid #e5e1d8;background:#fff;border-radius:8px;padding:22px 18px;display:grid;gap:4px}
+.flow-toc .section-kicker{margin:0 0 10px 4px}
+.flow-toc a{display:flex;gap:12px;padding:12px 8px;color:#5e626b;text-decoration:none;border-radius:5px;font-size:14px;line-height:1.35}
+.flow-toc a:hover,.flow-toc a:focus-visible{background:#fff2ec;color:#25272d}
+.flow-toc a:first-of-type{color:var(--orange)}
+.flow-step{padding:30px 0 38px;border-top:1px solid #e5e1d8;scroll-margin-top:24px}
+.flow-step:first-child{border-top:0;padding-top:0}
+.flow-step-heading{display:flex;gap:14px;align-items:center;margin-bottom:20px}
+.flow-step-heading .journey-number{position:static;flex:none}
+.flow-step-heading .section-kicker{margin-bottom:4px}
+.flow-step-heading h3{font:700 var(--type-card-title)/1.2 var(--display);letter-spacing:-.035em;margin:0;color:var(--ink)}
+.flow-image-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.flow-step .journey-visual{min-height:0;padding:16px;background:#efede7;border:1px solid #e7e3dc;border-radius:8px;overflow:visible}
+.flow-step .journey-visual img{height:390px;max-width:100%;object-fit:contain}
+.flow-step .journey-copy{padding:18px 0 0}
+.flow-step .journey-copy p{font-size:var(--type-body);line-height:1.7;max-width:780px;margin:0;color:#5e626b}
+@media(hover:hover){.flow-step .journey-visual:hover{z-index:4}.flow-step .journey-visual:hover img{transform:scale(1.8)}}
+@media(max-width:900px){.flow-origin-story{grid-template-columns:1fr;gap:12px}.flow-origin-grid{grid-template-columns:1fr;gap:32px}.flow-walkthrough{grid-template-columns:1fr;gap:22px}.flow-toc{position:static;display:flex;flex-wrap:wrap;align-items:center;gap:5px;padding:14px}.flow-toc .section-kicker{width:100%;margin-bottom:3px}.flow-toc a{padding:9px 10px}.flow-step .journey-visual img{height:340px}}
+@media(max-width:650px){.flow-origin{padding:53px 22px}.flow-origin-story{gap:10px}.flow-origin-story .flow-origin-heading h2{font-size:var(--type-section-title)!important}.flow-news-panel{padding:21px}.flow-news-panel h2{font-size:22px}.flow-news-panel li{font-size:15px}.flow-journey{padding:55px 22px}.flow-walkthrough{margin-top:25px}.flow-toc{display:grid;grid-template-columns:1fr 1fr}.flow-toc .section-kicker{grid-column:1/-1}.flow-toc a{font-size:13px}.flow-step{padding:25px 0 30px}.flow-step-heading{margin-bottom:14px}.flow-image-pair{grid-template-columns:1fr}.flow-step .journey-visual{padding:12px}.flow-step .journey-visual img{height:330px}.flow-step .journey-copy{padding-top:14px}}
