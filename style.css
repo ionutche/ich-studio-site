@@ -487,3 +487,6 @@
     line-height:1.7;
   }
 }
+
+/* ICH Studio logo */
+.brand{gap:0}.ich-studio-logo{display:block;width:118px;height:auto;max-height:48px;object-fit:contain}@media(max-width:650px){.ich-studio-logo{width:100px;max-height:40px}}
