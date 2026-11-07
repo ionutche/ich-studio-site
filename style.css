@@ -397,3 +397,93 @@
  .about-page .about-hero>p,.contact-page .contact-hero>p{font-size:16px;line-height:1.7}
  .about-page .about-copy h2,.contact-page .contact-option h2{font-size:28px}
 }
+
+
+/* ICH STUDIO — unified typography layer (authoritative shared scale) */
+:root{
+  --type-display:clamp(46px,5.2vw,68px);
+  --type-section:clamp(34px,3.5vw,44px);
+  --type-card:26px;
+  --type-body:16px;
+  --type-small:14px;
+  --type-meta:11px;
+}
+.page-hero h1,
+.home-page .hero-copy h1{
+  font-size:var(--type-display);
+  line-height:1.08;
+  letter-spacing:-.055em;
+}
+.home-intro-grid h2,
+.about-copy h2,
+.flow-origin-grid h2,
+.flow-journey-heading h2,
+.flow-stage-heading h2,
+.features-heading h2,
+.screens-heading h2,
+.origin h2{
+  font-size:var(--type-section);
+  line-height:1.12;
+  letter-spacing:-.05em;
+}
+.work-info h2,
+.about-copy h2,
+.contact-option h2,
+.journey-copy h3,
+.stage-card h3{
+  font-size:var(--type-card);
+  line-height:1.18;
+  letter-spacing:-.035em;
+}
+.home-intro-grid>div>p,
+.page-hero>p,
+.about-copy p,
+.contact-option p,
+.flowalarm-hero>p,
+.flow-origin-grid>div>p:not(.flow-quote),
+.flow-journey-heading>p,
+.journey-copy p,
+.stage-card p,
+.flow-transparency,
+.projects-note p,
+.hero-intro-card p,
+.news-item p{
+  font-size:var(--type-body);
+  line-height:1.75;
+}
+.section-kicker,.eyebrow{
+  font-size:var(--type-meta);
+  line-height:1.5;
+}
+@media(max-width:650px){
+  :root{
+    --type-display:clamp(38px,9.5vw,46px);
+    --type-section:32px;
+    --type-card:23px;
+    --type-body:15px;
+    --type-small:13px;
+    --type-meta:10px;
+  }
+  .page-hero h1,.home-page .hero-copy h1{
+    font-size:var(--type-display);
+    line-height:1.1;
+  }
+  .home-intro-grid h2,.about-copy h2,.flow-origin-grid h2,
+  .flow-journey-heading h2,.flow-stage-heading h2,
+  .features-heading h2,.screens-heading h2,.origin h2{
+    font-size:var(--type-section);
+    line-height:1.15;
+  }
+  .work-info h2,.about-copy h2,.contact-option h2,
+  .journey-copy h3,.stage-card h3{
+    font-size:var(--type-card);
+  }
+  .home-intro-grid>div>p,.page-hero>p,.about-copy p,
+  .contact-option p,.flowalarm-hero>p,
+  .flow-origin-grid>div>p:not(.flow-quote),
+  .flow-journey-heading>p,.journey-copy p,.stage-card p,
+  .flow-transparency,.projects-note p,.hero-intro-card p,.news-item p{
+    font-size:var(--type-body);
+    line-height:1.7;
+  }
+}
