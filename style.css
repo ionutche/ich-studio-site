@@ -310,7 +310,7 @@
 .contact-email:hover{border-color:#e5a37d;box-shadow:0 5px 14px rgba(35,32,26,.07)}
 @media(max-width:650px){.contact-page .site-header{height:auto;min-height:67px;padding:11px 18px;display:grid;grid-template-columns:1fr;gap:7px}.contact-page .brand{font-size:14px}.contact-page .brand-mark{width:28px;height:28px}.contact-page .site-header nav{grid-row:2;display:flex;gap:21px;overflow-x:auto;white-space:nowrap;padding:7px 0 2px;scrollbar-width:none}.contact-page .site-header nav::-webkit-scrollbar{display:none}.contact-page .site-header nav a{font-size:13px}.contact-page .site-header nav a.active:after{margin-top:4px}.contact-hero{padding:52px 22px 40px}.contact-hero h1{font-size:39px;margin:17px 0 10px}.contact-hero>p{font-size:13px}.contact-section{padding:27px 18px 55px}.contact-options{grid-template-columns:1fr;gap:13px}.contact-option{min-height:260px;padding:25px}.contact-option h2{font-size:22px}.contact-option p{font-size:13px}.contact-email{font-size:12px}}
 /* ICH Studio typography system */
-:root{--type-body:16px;--type-small:14px;--type-meta:11px}
+:root{--type-page-title:clamp(46px,5.6vw,74px);--type-section-title:clamp(32px,3.2vw,42px);--type-card-title:24px;--type-body:16px;--type-control:14px;--type-small:14px;--type-caption:13px;--type-meta:11px;--control-height:49px;--control-padding:12px 20px}
 
 
 .eyebrow,.section-kicker{font-size:11px;line-height:1.5}
@@ -495,3 +495,23 @@
 .projects-page .work-card{height:340px;min-height:340px}
 @media(min-width:651px) and (max-width:850px){.projects-page .projects-gallery{grid-template-columns:1fr}.projects-page .work-card{height:340px;min-height:340px}}
 @media(max-width:650px){.projects-page .work-card{height:auto;min-height:305px}}
+
+/* Shared site-wide type scale and control sizing */
+body{font-size:var(--type-body)}
+h1,.home-hero h1,.hero h1,.page-hero h1,.projects-page .projects-hero h1,.flowalarm-hero h1{font-size:var(--type-page-title)!important;line-height:1.06}
+.home-intro-grid h2,.origin h2,.features h2,.screens h2,.creator h2,.closing h2,.about-copy h2,.about-page .about-copy h2,.privacy-copy h2,.flow-origin-grid h2,.flow-journey-heading h2,.flow-stage-heading h2{font-size:var(--type-section-title)!important;line-height:1.12}
+.work-info h2,.projects-page .work-info h2,.contact-option h2,.contact-page .contact-option h2,.feature-card h3,.stage-card h3,.journey-copy h3,.project-row-copy h2{font-size:var(--type-card-title)!important;line-height:1.2}
+.hero-intro-card p,.news-item p,.home-intro-grid>div>p,.page-hero>p,.projects-page .projects-hero>p,.project-row-copy p,.work-info p,.projects-page .work-info p,.about-copy p,.about-page .about-copy p,.contact-hero>p,.contact-card p,.contact-option p,.contact-page .contact-option p,.privacy-copy p,.flowalarm-hero>p,.flow-origin-grid>div>p:not(.flow-quote),.flow-journey-heading>p,.journey-copy p,.stage-card p,.flow-transparency,.projects-note p,.origin-text>p:not(.large-copy),.creator-copy>p,.feature-card p,.features-heading>p,.screens-heading>p,.principle-side>p{font-size:var(--type-body)!important;line-height:1.7}
+.hero-intro-card>a,.news-link,.work-link,.projects-page .work-link,.flow-inline-link,.text-link{font-size:var(--type-control)!important;line-height:1.4}
+.button,button,.header-cta,.flow-policy-action,.contact-email{display:inline-flex;align-items:center;justify-content:center;font-size:var(--type-control)!important;line-height:1.2;min-height:var(--control-height);padding:var(--control-padding)}
+.eyebrow,.section-kicker{font-size:10px;line-height:1.5}
+.work-topline,.work-status,.stage-label,.flow-testing-tag,.stage-foot,.project-meta,.project-note,.page-hero-note{font-size:var(--type-meta)!important;line-height:1.5}
+.journey-visual figcaption,.site-footer>span,.site-footer>a:not(.brand){font-size:var(--type-caption)!important;line-height:1.5}
+.site-header nav a,.home-page .site-header nav a,.projects-page .site-header nav a,.about-page .site-header nav a,.contact-page .site-header nav a,.flowalarm-page .site-header nav a,.flowalarm-privacy-page .site-header nav a{font-size:14px!important}
+@media(max-width:650px){
+ :root{--type-page-title:39px;--type-section-title:34px;--type-card-title:22px}
+ h1,.home-hero h1,.hero h1,.page-hero h1,.projects-page .projects-hero h1,.flowalarm-hero h1{font-size:var(--type-page-title)!important;line-height:1.08}
+ .home-intro-grid h2,.origin h2,.features h2,.screens h2,.creator h2,.closing h2,.about-copy h2,.about-page .about-copy h2,.privacy-copy h2,.flow-origin-grid h2,.flow-journey-heading h2,.flow-stage-heading h2{font-size:var(--type-section-title)!important;line-height:1.12}
+ .work-info h2,.projects-page .work-info h2,.contact-option h2,.contact-page .contact-option h2,.feature-card h3,.stage-card h3,.journey-copy h3,.project-row-copy h2{font-size:var(--type-card-title)!important;line-height:1.2}
+ .button,button,.header-cta,.flow-policy-action,.contact-email{font-size:var(--type-control)!important;min-height:var(--control-height);padding:var(--control-padding)}
+}
