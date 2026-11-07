@@ -466,7 +466,5 @@ h1,.home-hero h1,.hero h1,.page-hero h1,.projects-page .projects-hero h1,.flowal
 .flow-step>.flow-image-pair .journey-visual img{height:330px}
 @media(max-width:900px){.flow-step{grid-template-columns:1fr;row-gap:18px}.flow-step-heading{grid-column:1;grid-row:1}.flow-step>.journey-visual,.flow-step>.flow-image-pair{grid-column:1;grid-row:2;width:min(100%,440px)}.flow-step>.journey-copy{grid-column:1;grid-row:3;padding:0 0 0 48px}.flow-step>.flow-image-pair .journey-visual img{height:340px}}
 @media(max-width:650px){.flow-step>.journey-visual,.flow-step>.flow-image-pair{width:100%}.flow-step>.journey-visual img{height:330px}.flow-step>.flow-image-pair{grid-template-columns:1fr}.flow-step>.flow-image-pair .journey-visual img{height:330px}.flow-step>.journey-copy{padding-left:37px}}
-/* Align walkthrough text and media from the top edge */
-.flow-step{align-items:start}
-.flow-step>.journey-copy{align-self:start}
+
 
