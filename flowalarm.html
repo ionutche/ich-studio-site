@@ -1,94 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="FlowAlarm by ICH ajută la organizarea turelor și alarmelor, pornind de la o nevoie reală.">
-    <meta name="theme-color" content="#f7f5ef">
-    <title>FlowAlarm — Alarme și organizare pentru ture | ICH Studio</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICH Studio | FlowAlarm by ICH</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="flowalarm-page">
+<body>
 
-    <header class="site-header">
-        <a class="brand" href="index.html">
-            <img class="ich-studio-logo" src="assets/ich-studio-logo.svg" alt="ICH Studio">
-        </a>
-        <nav aria-label="Navigare principală">
-            <a href="index.html">Acasă</a>
-            <a class="active" href="projects.html">Proiecte</a>
-            <a href="about.html">Despre mine</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <div class="container">
 
-    <main>
-        <section class="page-hero flowalarm-hero">
-            <div class="flow-hero-brand">
-                <img class="flow-product-logo" src="assets/flowalarm-icon.png" alt="Logo-ul aplicației FlowAlarm">
-                <span>FLOWALARM <small>BY ICH</small></span>
-            </div>
-            <div class="section-kicker">ALARME ȘI ORGANIZARE PENTRU TURE</div>
-            <h1>Configurezi o dată.<br><em>FlowAlarm ține pasul.</em></h1>
-            <p>Organizează-ți schimburile, alarmele și rutina zilnică într-un singur loc — fără să refaci programul de la zero în fiecare săptămână.</p>
-            <div class="flow-hero-actions">
-                <a class="button button-dark" href="#cum-functioneaza">Cum funcționează <span>↓</span></a>
-                <span class="flow-testing-tag"><i></i> TESTARE ÎNCHISĂ</span>
-                <a class="flow-policy-action" href="flowalarm-privacy.html">Privacy Policy <span>↗</span></a>
-            </div>
-        </section>
-
-        <section class="flow-origin section-pad" id="cum-functioneaza">
-            <div class="flow-origin-grid">
-                <div class="flow-origin-story">
-                    <div class="flow-origin-heading">
-                        <div class="section-kicker">DE CE AM CREAT FLOWALARM</div>
-                        <h2>O problemă personală.<br><em>O idee pentru mai mulți.</em></h2>
-                    </div>
-                    <div class="flow-origin-copy">
-                        <p class="flow-quote">„M-am săturat să refac alarmele în fiecare săptămână.”</p>
-                        <p>Lucrez în trei schimburi. Înainte de fiecare săptămână, îmi setam din nou alarmele și încercam aplicații complicate, doar ca să-mi organizez trezirea pentru muncă.</p>
-                        <p>Am început FlowAlarm ca să-mi fac programul mai ușor de gestionat — și cu gândul că poate sunt și alți oameni care au nevoie de o soluție mai simplă și mai logică.</p>
-                        <a class="flow-inline-link" href="about.html">Povestea creatorului <span>↗</span></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="flow-journey section-pad">
-            <div class="flow-journey-heading">
-                <div class="section-kicker">CUM FUNCȚIONEAZĂ</div>
-                <h2>Un parcurs clar,<br><em>pas cu pas.</em></h2>
-                <p>Explorează ecranele principale ale FlowAlarm și vezi cum se leagă între ele programul, rutinele, alarmele și notițele tale.</p>
-            </div>
+        <!-- Meniul de sus sincronizat -->
+        <header class="top-bar">
+            <a href="index.html" class="logo-top">ICH Studio</a>
             
-            <div class="flow-walkthrough">
-                <div class="flow-sidebar">
-                    <aside class="flow-news-panel" aria-labelledby="flow-news-title">
-                        <div class="section-kicker">NOUTĂȚI DIN APLICAȚIE</div>
-                        <h2 id="flow-news-title">Noutăți în această versiune</h2>
-                        <ul>
-                            <li>Reorganizarea meniului Rutina pentru o configurare mai clară și mai ușor de urmărit.</li>
-                            <li>Reordonarea secțiunilor pentru acces mai rapid la setările programului de lucru și ale schimburilor.</li>
-                            <li>Optimizarea afișării secțiunilor Weekend Liber Garantat și Notificare Inteligentă de Duminică.</li>
-                            <li>Adăugarea unei explicații pentru orele de muncă, care sunt informative și utilizate de Caietul Zilei.</li>
-                            <li>Îmbunătățiri de prezentare și organizare a interfeței.</li>
-                        </ul>
-                    </aside>
-                    <nav class="flow-toc" aria-label="Cuprins FlowAlarm">
-                        <div class="section-kicker">ÎN ACEASTĂ PAGINĂ</div>
-                        <a href="#panou">01 <span>Panou principal</span></a>
-                        <a href="#rutine">02 <span>Rutine</span></a>
-                        <a href="#alarme">03 <span>Butonul + și alarme</span></a>
-                        <a href="#caiet">04 <span>Caietul Zilei</span></a>
-                    </nav>
-                </div>
-                
-                <div class="flow-walkthrough-content">
-                    <article class="flow-step" id="panou">
-                        <div class="flow-step-heading">
-                            <span class="journey-number">
+            <nav class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="about.html">ABOUT ME</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+
+            <button class="admin-trigger" onclick="toggleAdminLogin()">⚙️ ADMIN</button>
+        </header>
+
+        <!-- Antetul paginii FlowAlarm -->
+        <div class="page-header" style="margin-top: 40px;">
+            <span class="page-subtitle-badge">// NATIVE ANDROID APP • v1.0</span>
+            <h1 class="section-huge-title" id="edit-fa-title">FlowAlarm by ICH</h1>
+        </div>
+
+        <!-- Descrierea principală -->
+        <div class="content-block" style="max-width: 900px; margin-bottom: 60px;">
+            <h2 id="edit-fa-subtitle" style="font-size: 28px; margin-bottom: 16px; color: #ffffff; line-height: 1.4;">
+                Automatizare inteligentă pentru programul de lucru în 3 schimburi
+            </h2>
+            <p id="edit-fa-p1" style="font-size: 17px; line-height: 1.7; color: #b3b3b3; margin-bottom: 20px;">
+                <b>FlowAlarm</b> este o aplicație nativă Android concepută de la zero pentru muncitorii care activează în regim de schimburi rotative (dimineața, după-amiaza, noaptea). Aplicația elimină stresul setării manuale zilnice a alarmelor, calculând automat tura următoare pe baza unui algoritm simplu, rapid și extrem de eficient.
+            </p>
+        </div>
+
+        <!-- Cele 3 casete cu funcționalități (Stilul modern al site-ului) -->
+        <div class="features-grid">
+            <div class="feature-box">
+                <span class="feature-num">01 // AUTOMATIZARE</span>
+                <h4 id="edit-f1-title">Schimburi Rotative</h4>
+                <p id="edit-f1-desc">Setezi ciclul de lucru o singură dată, iar alarmele se adaptează automat la rândul tău de tură.</p>
+            </div>
+            <div class="feature-box">
+                <span class="feature-num">02 // VITEZĂ & EFICIENȚĂ</span>
+                <h4 id="edit-f2-title">Interfață Minimalistă</h4>
+                <p id="edit-f2-desc">Fără meniuri încărcate, fără reclame obositoare. Construită nativ în Kotlin și Capacitor.</p>
+            </div>
+            <div class="feature-box">
+                <span class="feature-num">03 // FIABILITATE</span>
+                <h4 id="edit-f3-title">Consum Redus</h4>
+                <p id="edit-f3-desc">Optimizată pentru a rula perfect în fundal și a declanșa alarma exact la ora stabilită.</p>
+            </div>
+        </div>
+
+        <!-- Buton de descărcare -->
+        <div style="margin-bottom: 80px;">
+            <a href="#" class="btn-neon" onclick="alert('Aplicația va fi disponibilă în curând pe Google Play Console!')">📲 Descarcă FlowAlarm (Google Play)</a>
+        </div>
+
+        <!-- Secțiunea de Privacy Policy (Obligatorie pentru Google Play Console) -->
+        <div class="legal-box" id="privacy-policy">
+            <h2 id="edit-pp-title">Privacy Policy (Politica de Confidențialitate)</h2>
+            <p style="color: #888888; font-size: 13px; margin-bottom: 24px;">Ultima actualizare: Noiembrie 2026</p>
+
+            <h3>1. Prezentare Generală</h3>
+            <p>
+                Această Politică de Confidențialitate descrie modul în care aplicația <b>FlowAlarm by ICH</b> (dezvoltată de ICH Studio) gestionează datele utilizatorului. Respectarea intimității dumneavoastră este o prioritate absolută.
+            </p>
+
+            <h3>2. Colectarea și Stocarea Datelor</h3>
+            <p>
+                <b>FlowAlarm nu colectează, nu stochează și nu transmite nicio dată cu caracter personal</b> către servere externe sau terțe părți. Toate setările de alarmă și șabloanele de tură sunt salvate 100% local, pe memoria internă a dispozitivului dumneavoastră.
+            </p>
+
+            <h3>3. Permisiuni Solicitate</h3>
+            <p>Pentru a asigura funcționarea corectă a alarmelor, aplicația poate solicita următoarele permisiuni standard Android:</p>
+            <ul>
+                <li><b>Setarea alarmelor exacte (Alarms & Reminders):</b> Necesară pentru declanșarea semnalului sonor la ora programată pentru tură.</li>
+                <li><b>Rulare în fundal / Wake Lock:</b> Pentru a garanta că telefonul sună chiar și atunci când ecranul este blocat.</li>
+                <li><b>Repornirea dispozitivului (RECEIVE_BOOT_COMPLETED):</b> Pentru a reprograma automat alarmele după un restart al telefonului.</li>
+            </ul>
+
+            <h3>4. Ștergerea Datelor (Data Deletion)</h3>
+            <p>
+                Deoarece toate datele sunt salvate exclusiv pe telefonul dumneavoastră, puteți șterge instantaneu orice informație asociată aplicației prin simpla golire a datelor din setările Android sau prin dezinstalarea completă a acesteia.
+            </p>
+
+            <h3>5. Contact</h3>
+            <p>
+                Dacă aveți întrebări sau nelămuriri legate de această politică de confidențialitate, ne puteți contacta oricând la adresa de email: <b>contact@ichstudio.ro</b>
+            </p>
+        </div>
+
+        <!-- Subsol simplu -->
+        <footer class="simple-footer">
+            <div>© 2026 ICH Studio</div>
+            <div>Construit pas cu pas.</div>
+        </footer>
+
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
