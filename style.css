@@ -4757,3 +4757,19 @@ button,
     font-size: 18px;
   }
 }
+
+/* =========================================
+   LIMITARE LĂȚIME PENTRU ECRANE ULTRA-WIDE (Sau Zoom Out 33%)
+========================================= */
+.features-heading,
+.feature-grid,
+.flow-section-heading {
+    max-width: 1160px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Aliniem titlul de la FAQ exact pe lățimea grilei cu întrebări */
+.flow-faq-section .flow-section-heading {
+    max-width: 900px !important;
+}
