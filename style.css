@@ -4668,3 +4668,92 @@ button,
     gap: 14px !important;
   }
 }
+
+/* =========================================
+   STILURI NOI: TABEL COMPARATIV & FAQ FLOW
+========================================= */
+
+/* Tabel Comparativ */
+.flow-compare-section {
+  background: #fff;
+}
+.compare-table-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow-x: auto; /* Permite scroll orizontal pe telefoane dacă e nevoie */
+  background: #f7f5ef;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  padding: 10px;
+}
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.compare-table th, 
+.compare-table td {
+  padding: 18px 20px;
+  border-bottom: 1px solid #e7e3da;
+  font-size: 15px;
+  color: var(--ink);
+}
+.compare-table th {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 16px;
+  border-bottom: 2px solid var(--ink);
+  white-space: nowrap;
+}
+.compare-table td:not(:first-child) {
+  color: #626774;
+}
+.compare-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* FAQ / Întrebări frecvente */
+.flow-faq-section {
+  background: #f7f5ef;
+}
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto 0;
+}
+.faq-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 12px rgba(25, 30, 40, .03);
+}
+.faq-item h3 {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+.faq-item p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #626774;
+  margin: 0;
+}
+
+@media(max-width: 650px) {
+  .compare-table th, 
+  .compare-table td {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+  .faq-item {
+    padding: 22px;
+  }
+  .faq-item h3 {
+    font-size: 18px;
+  }
+}
